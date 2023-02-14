@@ -1,0 +1,41 @@
+
+p{
+    font-family: monospace;
+    font-size: 3em;
+}
+h2{
+    color: green;
+    font-size: 2em;
+    font-family:sans-serif;
+}
+body{
+    background-color: rgb(255, 400, 200);
+    font-size: 10px;
+}
+
+#exemplo{
+    background-color: red;
+}
+
+#titulo1{
+    color: orangered;
+    font-size: 65px;
+}
+
+.list-style{
+    background-color:blue;
+    font-weight: bold;
+    line-height: 40px;
+    text-align:center;
+    text-decoration: underline;
+}
+
+.frutas{
+    background-color: gray;
+}
+,tabelacores{
+    font-style: italic;
+    line-height: 50px;
+    text-align: left;
+    text-decoration: unset;
+}
