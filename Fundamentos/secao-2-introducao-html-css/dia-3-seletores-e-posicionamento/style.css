@@ -1,0 +1,102 @@
+.erro{
+    color: blue
+}
+
+.texto{
+    background-color: rgb(240, 240, 240); 
+    /* pinta o fundo */
+    width: 50%; 
+    /* escolhe o tamanho que ele fará de direita a esquerda. No caso, o 50% significa que ele ocupará 50% da tela. */
+    height: 100px; 
+    /* altura do bloco. */
+    overflow: auto; 
+    /* O conceito de overflow significa o quanto que está sendo passado da caixa do Div, no caso, o 100px do height ele não é o suficente. Desta forma, ao colocar o auto, adiciona uma barra de rolagem para tornar mais facil.*/
+    border: 5px solid;
+    border-radius:20px;
+    border-image: linear-gradient(54deg, red,blue) 10;
+}
+
+li:hover{
+    background-color: lightgreen;
+
+}
+li:active{
+    color:white;
+
+}
+
+div ul li{
+    background-color: lightgreen;
+}
+
+/* -----------------------------------Primeiro exemplo da aula ---------------------------------*/
+
+.caixa {
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+  }
+  
+  .width-and-height {
+    height: 50px;
+    width: 50px;
+  }
+  
+  /* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
+  .padding {
+  padding: 20px
+  }
+  
+  /* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
+  .margin {
+  margin: 30px
+  }
+  
+  /* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
+
+
+  .border {
+    border: 5px solid black;
+  }
+
+  /* ------------------------ Segundo exemplo da aula ----------------*/
+  .super-mario {
+    width: 200px;
+    position:absolute; /* deixa a posição como absoluta, ela ficará sempre lá, não mudará de lugar nunca, muito diferente de fixed, por exemplo */
+    left: 100px;
+    top: 600px;
+  }
+  
+  .goomba {
+    position:absolute;
+    width: 100px;
+    left: 100px;
+    top: 900px;
+  }
+  
+  .baloon {
+    position:absolute;
+    left: 400px;
+  }
+  
+  .speach {
+    position:absolute;
+    font-size: 25px;
+    top:600px;
+    left: 420px;
+    z-index: 2;
+
+  }
+  
+  .bowser {
+    position:absolute;
+    width: 200px;
+    left: 650px;
+    top: 800px
+  }
+
+  /* ------------------------ terceiro exemplo da aula ----------------*/
+
+
