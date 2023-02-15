@@ -11,15 +11,22 @@
     /* altura do bloco. */
     overflow: auto; 
     /* O conceito de overflow significa o quanto que está sendo passado da caixa do Div, no caso, o 100px do height ele não é o suficente. Desta forma, ao colocar o auto, adiciona uma barra de rolagem para tornar mais facil.*/
-    
+    border: 5px solid;
+    border-radius:20px;
+    border-image: linear-gradient(54deg, red,blue) 10;
 }
 
 li:hover{
     background-color: lightgreen;
+
 }
 li:active{
     color:white;
 
+}
+
+div ul li{
+    background-color: lightgreen;
 }
 
 /* -----------------------------------Primeiro exemplo da aula ---------------------------------*/

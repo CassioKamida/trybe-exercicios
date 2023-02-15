@@ -1,0 +1,45 @@
+ol li{
+    background-color: lightyellow;
+}
+ol li:nth-child(odd){
+    text-transform: uppercase;
+}
+ol li:nth-child(even){
+    color:green;
+}
+
+h1, h2 {
+    color:red;
+}
+h1 em, h2 em{
+    font-size: 40px;
+    border: 1px solid black;
+
+}
+
+li {
+    font-size:20px;
+
+}
+li em {
+    font-weight: 700;
+
+}
+
+.linguagens li:not(:nth-child(n+4)) {
+    color: blue;
+}
+
+.java{
+    background-color: pink;
+}
+
+.aliados li a:hover{
+    font-weight: 700;
+    background-color: green;
+}
+
+.aliados li a[href*="stackoverflow"]{
+    color: orange;
+
+}
