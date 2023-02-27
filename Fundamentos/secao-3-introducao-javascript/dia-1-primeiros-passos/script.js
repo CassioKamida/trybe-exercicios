@@ -11,6 +11,8 @@ let isValid = true; //boolean
 let name; //undefined
 let color = null; //neste caso, foi iniciado uma variavel como nula, esperando uma redefinição;
 
+// ---------------------------------------------------------//
+
 
 
 
