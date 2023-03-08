@@ -72,8 +72,10 @@
 
 // ---------------------------------------------------------//
 
-let speed = 150;
-const speedCar = (speed) => (speed >=120 ? `Você ultrapassou o limite de volocidade` : `fodese`)
+// let speed = 150;
+// const speedCar = (speed) => (speed >=120 ? `Você ultrapassou o limite de volocidade` : `fodese`)
 
 
-console.log(speedCar(speed));
+// console.log(speedCar(speed));
+
+// --------------------------------------------------------//
