@@ -1,0 +1,23 @@
+{
+  "name": "aula-1-ambiente-de-desenvolvimento",
+  "version": "1.0.0",
+  "description": "projeto 1 aula 1",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js"
+  },
+  "keywords": [],
+  "author": "cassio",
+  "license": "ISC",
+  "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.8.3",
+    "nanoid": "^4.0.2",
+    "validator": "^13.9.0",
+    "vite": "^4.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0"
+  }
+}
